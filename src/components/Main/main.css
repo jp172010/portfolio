@@ -1,0 +1,21 @@
+.profPic{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 2%;
+}
+.mText{
+    text-align: center;
+}
+#main{
+    margin: auto;
+    width: 80%;
+}
+.mTitle{
+ padding: 2%;
+}
+#secHalf{
+    display: flex;
+    justify-content: center;
+}
