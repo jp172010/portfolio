@@ -1,4 +1,5 @@
 import React from 'react';
+import "./footer.css";
 
 var style = {
     backgroundColor: "#3f51b5",
@@ -21,7 +22,7 @@ var phantom = {
 
 function Footer({ children }) {
     return (
-        <div>
+        <div id="foot">
             <div style={phantom} />
             <div style={style}>
                 { children }

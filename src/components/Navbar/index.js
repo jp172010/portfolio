@@ -4,8 +4,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import "./navbar.css"
-import FBLogo from "./facebook.png"
-import LinkLogo from "./linkedin.png"
+import FBLogo from "./images/facebook.png"
+import LinkLogo from "./images/linkedin.png"
 import Link from '@material-ui/core/Link'
 
 const useStyles = makeStyles(theme => ({
@@ -24,7 +24,7 @@ export default function Navbar() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="nav">
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" id="title">
