@@ -11,7 +11,7 @@ import { red } from "@material-ui/core/colors";
 import Grid from "@material-ui/core/Grid";
 import Dbz from "./images/DBZ.jpg";
 import Gif from "./images/gif.jpg";
-import Jewel from "./images/jewel.jpg";
+import Click from "./images/clickgame.png";
 import Train from "./images/train.jpg";
 import Trivia from "./images/trivia.jpg"
 import "./portfolio.css"
@@ -69,24 +69,24 @@ export default function Portfolio() {
           <CardHeader
             avatar={
               <Avatar aria-label="Game" className={classes.avatar}>
-                GC
+                
               </Avatar>
             }
             action={<IconButton aria-label="Settings" />}
-            title="Gem Collector"
+            title="DBZ Memory Game"
             subheader=""
           />
           <CardMedia
             className={classes.media}
-            image={Jewel}
-            title="Gem Collector"
+            image={Click}
+            title="DBZ Memory Game"
           />
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-            Strategic game where the user discovers the random cost of the four available gems. Then uses them to try to match the given number.
+            Memorization game where the player attempts to click each image only once.
             </Typography>
             <br/>
-            <a href="https://jp172010.github.io/unit-4-game/"><button>Play Now!</button></a>
+            <a href="https://clickygamejp17.herokuapp.com/"><button>Play Now!</button></a>
           </CardContent>
         </Card>
         </Grid>

@@ -3,7 +3,7 @@ import { Slide } from 'react-slideshow-image';
 import "./slideshow.css"
 import DBZ from './images/DBZ.jpg'
 import Gif from './images/gif.jpg'
-import Gem from './images/jewel.jpg'
+import Click from './images/clickgame.png'
 import Train from './images/train.jpg'
 import Trivia from './images/trivia.jpg'
 
@@ -12,7 +12,7 @@ const Slideshow = () => {
   const slideImages = [
     DBZ,
     Gif,
-    Gem,
+    Click,
     Train,
     Trivia
   ];
