@@ -1,27 +1,33 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import "./slideshow.css"
- 
-const slideImages = [
-  "./images/DBZ.jpg",
-  "./images/gif.jpg",
-  "./images/jewel.jpg",
-  "./images/train.jpg",
-  "./images/trivia.jpg"
-];
- 
-const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: false,
-  arrows: false,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
-}
- 
+import DBZ from './images/DBZ.jpg'
+import Gif from './images/gif.jpg'
+import Gem from './images/jewel.jpg'
+import Train from './images/train.jpg'
+import Trivia from './images/trivia.jpg'
+
 const Slideshow = () => {
+
+  const slideImages = [
+    DBZ,
+    Gif,
+    Gem,
+    Train,
+    Trivia
+  ];
+   
+  const properties = {
+    duration: 2500,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: false,
+    arrows: false,
+    onChange: (oldIndex, newIndex) => {
+      console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+    }
+  }
+
     return (
       <Slide {...properties}>
         <div className="each-slide">
