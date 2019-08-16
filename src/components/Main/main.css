@@ -19,3 +19,7 @@ img{
     display: flex;
     justify-content: center;
 }
+#slideshow{
+    height: 200px;
+    width: 200px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import ProfPic from './Profile.jpg'
 import './main.css'
 import { Typography } from '@material-ui/core';
+import Slideshow from "./Slideshow";
 
 function Main() {
     return (
@@ -31,7 +32,7 @@ function Main() {
         <br/>
         <br/>
         <div id="secHalf">
-        <Typography variant='h5' className="mTitle">
+        {/* <Typography variant='h5' className="mTitle">
             Get In Touch!
         </Typography>
         <a href='/contact'>
@@ -40,16 +41,12 @@ function Main() {
             alt="My Family"
             style={{width: '200px', height: '200px'}}
         />
-        </a>
+        </a> */}
         <Typography variant='h5' className="mTitle">
             Check Out My Recent Projects!
         </Typography>
-        <a href='/portfolio'>
-        <img
-            src={ProfPic}
-            alt="My Family"
-            style={{width: '200px', height: '200px'}}
-        />
+        <a href='/portfolio' id="slideshow">
+        <Slideshow/>
         </a>
         </div>
         </div>
