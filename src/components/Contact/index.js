@@ -69,9 +69,6 @@ export default function Contact(){
               Linkedin Homepage
             </a>
       </div> 
-      <div>
-          Cell Phone:925-353-8934
-      </div>   
     </div>
     );
 }
