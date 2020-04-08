@@ -9,7 +9,7 @@ export default function Contact(){
             Get in Touch!
         </title>
         <h4>
-            Feel free to send me an Email @ JP17_2010@yahoo.com or text @ Cell Phone:925-353-8934.
+            Feel free to send me an Email @ JP17_2010@yahoo.com or text @ 925-353-8934.
         </h4>
         <h4>
             Or you can find me elsewhere

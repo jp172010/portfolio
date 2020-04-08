@@ -2,7 +2,7 @@ import React from 'react';
 import "./footer.css";
 
 var style = {
-    backgroundColor: "#3f51b5",
+    backgroundColor: "#3F51B5",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "20px",

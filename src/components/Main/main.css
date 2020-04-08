@@ -14,7 +14,12 @@ img{
 }
 .mTitle{
  padding: 2%;
+ text-decoration: none;
+ color: black;
 }
+.mTitle:hover {
+    text-decoration: underline;
+  }
 #secHalf{
     display: flex;
     justify-content: center;
@@ -22,4 +27,8 @@ img{
 #slideshow{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+}
+#parent{
+    background-image: linear-gradient(white, purple);
 }

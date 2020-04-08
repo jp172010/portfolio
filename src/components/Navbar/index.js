@@ -25,7 +25,7 @@ export default function Navbar() {
 
   return (
     <div className={classes.root} id="nav">
-      <AppBar position="static">
+      <AppBar>
         <Toolbar>
           <Typography variant="h6" id="title">
             <Link href='/' className={classes.link} color='inherit'>

@@ -1,27 +1,28 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Wrapper from './components/Wrapper';
-import Main from './components/Main';
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
+import Main from "./components/Main";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
   render() {
-  return (
-    <Wrapper>
-      <Router>
-    <Navbar/>
-    <Switch>
-      <Route exact path="/" render={() => (<Main/>)}/>
-      <Route exact path="/portfolio" render={() => (<Portfolio/>)}/>
-      <Route exact path="/contact" render={() => (<Contact/>)}/>
-    </Switch>
-    </Router>
-    <Footer/>
-    </Wrapper>
-  )
-}}
+    return (
+      <Wrapper>
+        <Navbar />
+        <Router>
+          <Switch>
+            <Route exact path="/" render={() => <Main />} />
+            <Route exact path="/portfolio" render={() => <Portfolio />} />
+            <Route exact path="/contact" render={() => <Contact />} />
+          </Switch>
+        </Router>
+        <Footer />
+      </Wrapper>
+    );
+  }
+}
 
 export default App;

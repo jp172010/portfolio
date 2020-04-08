@@ -6,8 +6,9 @@ import { Typography } from '@material-ui/core';
 import Slideshow from "./Slideshow";
 
 function Main() {
+    
     return (
-        <div>
+        <div id='parent'>
         <div id='main'>
             <div className='profPic'>
                 <img
@@ -22,19 +23,16 @@ function Main() {
             </Typography>
             <br/>
             <Typography variant='h6' className='mText'>
-                I grew up in Northern California and moved to Austin, Tx in 2010.
-                I'm currently employed at Golds Gym as a Personal Trainer. I'm
-                working to transition from being a full-time trainer, to a
-                part-time trainer / full-time programmer by attending the UT
-                Coding Bootcamp. I'm working to become a Web Designer / Full-Stack
-                programmer.
+                I have been programming for a little over 1 year. Most of my time I
+          spend building in Javascript, using the React Framework. I also have
+          experience with HTML5, CSS3, Java, MongoDB, and SQL.
             </Typography>
         </div>
         <br/>
         <br/>
         <div id="secHalf">
-        <Typography variant='h5' className="mTitle">
-            Get In Touch!
+        <Typography variant='h4' className="mTitle">
+            <a className='mTitle' href='/contact'>Get In Touch!</a>
         </Typography>
         <a href='/contact'>
         <img
@@ -43,8 +41,8 @@ function Main() {
             style={{width: '200px', height: '200px'}}
         />
         </a>
-        <Typography variant='h5' className="mTitle">
-            Check Out My Recent Projects!
+        <Typography variant='h4' className="mTitle">
+            <a className='mTitle' href='/portfolio'>Check Out My Recent Projects!</a>
         </Typography>
         <a href='/portfolio' id="slideshow">
         <Slideshow/>
