@@ -1,0 +1,13 @@
+#parent{
+    background-image: linear-gradient(white, purple);
+    padding-left: 10px;
+}
+#linkedinLink{
+    padding-bottom: 30%;
+}
+#facebookLink{
+    margin-top: 0px;
+}
+#linkedinImage{
+    margin-top: 0px;
+}
